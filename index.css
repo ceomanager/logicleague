@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@keyframes rotateloader{
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+}
+#all-land{display: none;}
+#loader-land{display: flex;justify-content: center;margin-top: 180px;}
+.loader{border: 1px;border-left: 10px solid rgb(223, 83, 83);width: 150px;height: 150px;
+    border-radius: 1000px;animation: rotateloader infinite 1s;display: flex;justify-content: center;}
+.content{display: flex;justify-content: center;
+}
+.content ul {list-style: none;background-color: white;}
+.content ul li{margin: 28px;font-size: 20px;} 
+.content ul a {
+    display: inline-block;
+    text-decoration: none;color: black;
+}
+.navbar-media{display: inline;
+}
+.navbar-media img{height: 40px;width:40px;padding:23px;display: none;}
+.content ul a:hover{
+color: rgb(223, 83, 83);transition: 0.3s;
+}
+.img-land h1{color: white;text-align: center;opacity: 1;padding-top: 25%;font-size: 60px;}
+.img-land{
+    margin-top: 10px;background: url('pexels-danny-meneses-943096.jpg');opacity: 0.9;
+    font-style: italic;height:700px ;background-repeat: no-repeat;background-size:cover;}
+#on-page{color: rgb(223, 83, 83);}
+.head-quote{text-align: center;font-size: 20px;margin-top: 10px;}
+.head-quote span{color: rgb(223, 83, 83);}
+.image-head{display: flex;justify-content: center;margin-top: 20px;}
+.image-head img{width: 350px;height: 350px;}
+#h-img{width: 200px;height: 200px;}
+#btn{
+    padding-left: 15px;padding-right: 15px;padding-top: 10px;padding-bottom: 10px;font-size: 18px;background-color: rgb(223, 83, 83);color: whitesmoke;
+    border: 1px solid rgb(223, 83, 83);border-radius:5px ;
+}
+#quote-head{width: auto;}
+.all-content-list ul li{font-size: 18px;border:0;display: inline-block;padding: 25px;text-align: center;
+box-shadow: 4px 20px 20px 3px rgb(216, 215, 215);margin: 80px;border-radius: 10px;
+}
+.all-content-list{text-align: center;}
+.all-content-list img{width: 100px;height: 100px;}
+#span-head{color: rgb(223, 83, 83);}
+.footer-land{width: 100%;text-align: center;background: rgb(209, 208, 208);margin-top: 200px;}
+.footer-land ul{display: inline-block;list-style: none;padding: 100px;}
+.footer-land ul li{margin: 23px;}
+.footer-land ul li{color: rgb(102,102,102);}
+.footer-land ul a{color: rgb(102, 102, 102);text-decoration: none;font-size: 15px;}
+#span-li{color: rgb(223, 83, 83);}#li-head{font-size: 17px;color:black;}
+#img-foot{width: 50px;height: 50px;}
+@media(max-width:1250px){
+    .content{display: none;}
+}
